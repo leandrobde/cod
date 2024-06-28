@@ -1,0 +1,273 @@
+body {
+    background-color: #ECF1FE;
+    /* Definindo uma cor de fundo para a página web*/
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* esse scrol é usado para rolagem de página unica */
+}
+
+
+/* Estilos do header */
+header {
+    /* background-color: #386cb0; */
+    background-color: #5025D1;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+
+}
+
+/* esse container foi criado para poder usar o menu na parte de cima */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.containerinfor {
+
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1 {
+    font-size: 24px;
+    /* tamanho de todos os itens que tiveram h1  */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: rgb(4, 14, 66);
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+/* Estilo para a seção ativa (visualização ao clicar no link)
+section:target {
+    display: block;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ________________________________________________________________________ */
+/* ************************************************************************ */
+/*                         CONFIGURANDO IMAGEM                              */
+/* ***********************************************************************  */
+/* ________________________________________________________________________ */
+img.minha-foto {
+    border-radius: 50%;
+    width: 100%; 
+    max-width: 150px;  /* Limita a largura máxima da imagem */
+    height: auto;  /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber bem no contêiner */
+    margin-top: 20px;
+}
+img.educ {
+    /* border-radius: 50%; */
+    width: 100%; 
+    max-width: 450px;  /* Limita a largura máxima da imagem */
+    height: auto;  /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber bem no contêiner */
+    margin-top: 20px;
+}
+img.git {
+    /* border-radius: 50%; */
+    width: 100%; 
+    max-width: 250px;  /* Limita a largura máxima da imagem */
+    height: auto;  /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber bem no contêiner */
+    margin-top: 20px;
+}
+/* ________________________________________________________________________ */
+/* ************************************************************************ */
+/*              CONFIGURANDO ABAS PARA IDENTIFICAÇÃO DE PÁGINA            */
+/* ***********************************************************************  */
+/* ________________________________________________________________________ */
+#inicio {
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#inicio h2 {
+    font-family: 'Arial', sans-serif;
+    color: #5025D1;
+    font-size: 24px;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+    text-transform: uppercase;
+}
+
+#inicio p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+#sobre {
+    background-color: #ffffea;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sobre h2 {
+    font-family: 'Arial', sans-serif;
+    color: #961111;
+    font-size: 24px;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+    text-transform: uppercase;
+}
+
+#sobre p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+#formacao {
+    /* background-color: #ff715b; */
+    background-color: #DEE6FD;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formacao h2 {
+    font-family: 'Arial', sans-serif;
+    color: #961111;
+    font-size: 24px;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+    text-transform: uppercase;
+}
+
+#formacao p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+#portifolio {
+    background-color: #02020a;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#portifolio h2 {
+    font-family: 'Arial', sans-serif;
+    color: #ECF1FE;
+    font-size: 24px;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+    text-transform: uppercase;
+}
+
+#portifolio p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+#contato {
+    background-color: #DEE6FD;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+    font-family: 'Arial', sans-serif;
+    color: #0844db;
+    font-size: 24px;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+    text-transform: uppercase;
+}
+
+#contato p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+/* ________________________________________________________________________ */
+/* ************************************************************************ */
+/*              CONFIGURANDO FORM PARA IDENTIFICAÇÃO DE PÁGINA            */
+/* ***********************************************************************  */
+/* ________________________________________________________________________ */
+
+#contato input, #contato textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+#contato button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+/* ________________________________________________________________________ */
+/* ************************************************************************ */
+/*              CONFIGURANDO FOOTER PARA IDENTIFICAÇÃO DE PÁGINA            */
+/* ***********************************************************************  */
+/* ________________________________________________________________________ */
+footer {
+    background-color: #2f3d50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p {
+    margin: 0;
+}
+
