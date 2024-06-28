@@ -107,6 +107,10 @@ img.git {
     object-fit: cover; /* Ajusta a imagem para caber bem no contêiner */
     margin-top: 20px;
 }
+.imagem-pequena {
+    width: 80%;
+    height: auto;
+}
 /* ________________________________________________________________________ */
 /* ************************************************************************ */
 /*              CONFIGURANDO ABAS PARA IDENTIFICAÇÃO DE PÁGINA            */
